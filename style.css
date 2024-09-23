@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(Screenshot_80.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.up {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    font-size: 40px;
+    color: red;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    cursor: pointer;
+    border: 30px solid yellow;
+    border-radius: 100%;
+    padding: 20px;
+}
